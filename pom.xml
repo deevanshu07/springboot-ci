@@ -50,17 +50,26 @@
     <build>
         <plugins>
             <!-- Spring Boot Plugin -->
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.2.5</version>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goal> <!-- ensures executable JAR -->
+                            <goal>repackage</goal> &lt;!&ndash; ensures executable JAR &ndash;&gt;
                         </goals>
                     </execution>
                 </executions>
+            </plugin>-->
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <mainClass>com.example.springbootci.SpringbootCiApplication</mainClass>
+                </configuration>
             </plugin>
 
             <!-- Sonar -->
@@ -68,6 +77,31 @@
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.10.0.2594</version>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.11</version>
+
+                <executions>
+
+                    <!-- Attach JaCoCo agent -->
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+
+                    <!-- Generate XML report (REQUIRED for SonarCloud) -->
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+
+                </executions>
             </plugin>
         </plugins>
     </build>
