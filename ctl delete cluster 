@@ -1,0 +1,157 @@
+{
+    "StackSummaries": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/eksctl-my-cluster-cluster/36e68b00-3c1e-11f1-a080-02061a012873",
+            "StackName": "eksctl-my-cluster-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2026-04-19T18:33:09.327000+00:00",
+            "DeletionTime": "2026-04-19T18:40:02.223000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "b91a3ae0-50d9-4bc0-b7c8-af060cfe6c43"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-fvkrypbi27-immutable-stack/2f298640-3847-11f1-a35a-063d2529b0b5",
+            "StackName": "awseb-e-fvkrypbi27-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'MyWebApp-env'  Id: 'e-fvkrypbi27')",
+            "CreationTime": "2026-04-14T21:16:21.087000+00:00",
+            "DeletionTime": "2026-04-14T21:24:39.645000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "54693549-0677-4ea4-836b-c19fd0a2005f"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-tgjezzegz8-immutable-stack/a7a508e0-3443-11f1-9c11-02635ebff049",
+            "StackName": "awseb-e-tgjezzegz8-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'JavaCICDApp-env'  Id: 'e-tgjezzegz8')",
+            "CreationTime": "2026-04-09T18:41:00.590000+00:00",
+            "DeletionTime": "2026-04-09T18:49:20.535000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "1526a54e-de7f-4391-b5f5-cbc015297f60"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-fvkrypbi27-immutable-stack/da37b2c0-2d46-11f1-84e3-0256e631c371",
+            "StackName": "awseb-e-fvkrypbi27-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'MyWebApp-env'  Id: 'e-fvkrypbi27')",
+            "CreationTime": "2026-03-31T21:16:15.785000+00:00",
+            "DeletionTime": "2026-03-31T21:25:02.615000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "8d82a124-9063-4804-82d7-a3e7e6b4c932"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-fvkrypbi27-immutable-stack/7873dbf0-2246-11f1-87e6-064a52a5453b",
+            "StackName": "awseb-e-fvkrypbi27-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'MyWebApp-env'  Id: 'e-fvkrypbi27')",
+            "CreationTime": "2026-03-17T21:15:48.966000+00:00",
+            "DeletionTime": "2026-03-17T21:24:38.572000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "e9ceb1ec-80ff-42bb-b309-f4a7ccfe0fa0"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-tgjezzegz8-immutable-stack/13b1fd70-1e43-11f1-8305-0245d42a8c43",
+            "StackName": "awseb-e-tgjezzegz8-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'JavaCICDApp-env'  Id: 'e-tgjezzegz8')",
+            "CreationTime": "2026-03-12T18:41:26.781000+00:00",
+            "DeletionTime": "2026-03-12T18:49:53.049000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "ad6ddab4-8a69-4999-b551-962744ecfa64"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-fvkrypbi27-immutable-stack/28268a40-1746-11f1-889a-0620ea68fbeb",
+            "StackName": "awseb-e-fvkrypbi27-immutable-stack",
+            "TemplateDescription": "Immutable Deployments for AWS Elastic Beanstalk environment (Name: 'MyWebApp-env'  Id: 'e-fvkrypbi27')",
+            "CreationTime": "2026-03-03T21:15:51.458000+00:00",
+            "DeletionTime": "2026-03-03T21:24:29.888000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "82b0d60c-f400-4eb0-b960-59e41e727595"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-y7jiumr36e-stack/fcaa30c0-10f5-11f1-9de5-062022934d95",
+            "StackName": "awseb-e-y7jiumr36e-stack",
+            "TemplateDescription": "AWS Elastic Beanstalk environment (Name: 'MynewweApp-env'  Id: 'e-y7jiumr36e')",
+            "CreationTime": "2026-02-23T20:26:51.799000+00:00",
+            "DeletionTime": "2026-02-23T20:27:25.829000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "699a5c3e-0744-4aeb-873f-45aab57ab4da"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:486471633519:stack/awseb-e-urudbyztas-stack/cffefe80-1027-11f1-bb5a-06d1fa8c17a5",
+            "StackName": "awseb-e-urudbyztas-stack",
+            "TemplateDescription": "AWS Elastic Beanstalk environment (Name: 'AssigmentEBS-env'  Id: 'e-urudbyztas')",
+            "CreationTime": "2026-02-22T19:51:00.524000+00:00",
+            "DeletionTime": "2026-02-23T20:16:07.584000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "DELETE_STACK",
+                    "OperationId": "2b77f4f9-56a1-4241-83a7-365d2eb6105f"
+                }
+            ]
+        }
+    ]
+}
