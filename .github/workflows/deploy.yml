@@ -44,8 +44,10 @@ jobs:
       - name: Push Image
         run: docker push 486471633519.dkr.ecr.ap-south-1.amazonaws.com/my-app:latest
 
+      - name: Update kubeconfig
+        run: aws eks update-kubeconfig --region ap-south-1 --name my-cluster
+
       - name: Deploy to EKS
         run: |
-          aws eks update-kubeconfig --name my-cluster --region ap-south-1
           kubectl apply -f deployment.yaml --validate=false
           kubectl apply -f service.yaml --validate=false
