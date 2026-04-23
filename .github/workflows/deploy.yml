@@ -26,7 +26,7 @@ jobs:
         # ---------------- SONARQUBE ----------------
       - name: SonarQube Scan
         run: mvn sonar:sonar \
-            -Dsonar.projectKey=my-app \
+            -Dsonar.projectKey=deevanshu07_springboot-ci \
             -Dsonar.organization=${{ secrets.SONAR_ORG }} \
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
