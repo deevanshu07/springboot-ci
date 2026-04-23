@@ -16,7 +16,7 @@
         <java.version>17</java.version>
         <spring-boot.version>3.2.5</spring-boot.version>
         <maven.compiler.release>${java.version}</maven.compiler.release>
-        <sonar.projectKey>deevanshu07_my-new-repo</sonar.projectKey>
+        <sonar.projectKey>deevanshu07_springboot-ci</sonar.projectKey>
         <sonar.organization>deevanshu07</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
