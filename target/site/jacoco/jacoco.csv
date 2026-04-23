@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+demo,com.example.cicdpipeline.entity,Product,123,36,24,0,0,6,16,8,4,8
+demo,com.example.cicdpipeline,SpringbootCiApplication,9,3,0,0,3,1,2,1,2,1
+demo,com.example.cicdpipeline.service,ProductService,0,13,0,0,0,3,0,3,0,3
+demo,com.example.cicdpipeline.controller,ProductController,0,12,0,0,0,3,0,3,0,3

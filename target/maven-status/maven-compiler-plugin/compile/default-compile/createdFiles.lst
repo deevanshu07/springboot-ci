@@ -1,0 +1,5 @@
+com\example\cicdpipeline\controller\ProductController.class
+com\example\cicdpipeline\repository\ProductRepository.class
+com\example\cicdpipeline\service\ProductService.class
+com\example\cicdpipeline\entity\Product.class
+com\example\cicdpipeline\SpringbootCiApplication.class
