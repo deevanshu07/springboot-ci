@@ -51,8 +51,20 @@ jobs:
         run: |
           kubectl apply -f deployment.yaml --validate=false
           kubectl apply -f service.yaml --validate=false
+        
       - name: Wait for deployment rollout
         run: kubectl rollout status deployment/springboot-app --timeout=180s
+        
+      # 🚨 DEBUG STEP (runs ONLY if above step fails)
+      - name: Debug Pods (on failure)
+        if: failure()
+        run: |
+          echo "=== POD STATUS ==="
+          kubectl get pods -o wide
+          echo "=== DESCRIBE POD ==="
+          kubectl describe pods
+          echo "=== POD LOGS ==="
+          kubectl logs -l app=springboot-app --all-containers=true
 
       - name: Verify Kubernetes resources
         run: |
