@@ -1,2 +1,2 @@
-com\example\cicdpipeline\ProductControllerTest.class
-com\example\cicdpipeline\ProductServiceTest.class
+com\example\cicdpipeline\service\ProductServiceTest.class
+com\example\cicdpipeline\controller\ProductControllerTest.class
