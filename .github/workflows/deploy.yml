@@ -22,6 +22,21 @@ jobs:
 
       - name: Test
         run: mvn test
+        
+        # ---------------- SONARQUBE ----------------
+      - name: SonarQube Scan
+        run: mvn sonar:sonar \
+            -Dsonar.projectKey=my-app \
+            -Dsonar.organization=${{ secrets.SONAR_ORG }} \
+            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+       - name: SonarQube Quality Gate
+        uses: sonarsource/sonarqube-quality-gate-action@v1
+        with:
+            scanMetadataReportFile: target/sonar/report-task.txt
+        env:
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Build Docker
         run: docker build -t app .
